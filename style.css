@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 1em 40em 0 3em;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+ nav button{
+    background-color: black;
+    color: #f5f5f5;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.main{
+    display: flex;
+    margin: 2em 3em;
+    gap: 7em;
+}
+
+.numad{
+    display: flex;
+    gap: 2em;
+    margin: 2em 0.5em 0;
+
+}
+
+h1{
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 1.5em 0 1em 0;
+}
+
+.main p{
+    line-height: 1.8em;
+    margin-bottom: 2em;
+}
+
+.main button{
+    background-color: #000000;
+    color: #f5f5f5;
+    width: 12em;
+    padding: 0.7em;
+}
+
+.main-primary div{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin-top: 1em;
+    height: 145px;
+    width: 200px;
+}
+
+.main-secondary{
+    display: flex;
+    background: #1b1c1e;
+    padding: 1em 0.5em 0.5em 2em;
+    margin: 0.5em 1em;
+    gap: 3em;
+    width: 830px;
+   height: 500px;
+}
+
+.main-secondary h3{
+    color: #ffffff;
+    margin: 2em 0;
+}
+
+.main-secondary p{
+    color: #ffffff;
+    margin: 1em 0;
+    line-height: 1.8em;
+}
+
+.main-secondary a{
+    color: #ffffff;
+    margin-top: 4em;
+    text-decoration-line: underline ;
+}
+
+.main-secondary img{
+    margin: 2em 0;
+    height: 90%;
+}
+
+.bolo{
+    display: flex;
+    gap: 25em;
+    margin: 3em 3em;
+}
+
+.bolo h3{
+    margin-bottom: 0.3em;
+}
+
+.bolo button{
+    color: #f5f5f5;
+    background-color: #1b1c1e;
+    width: 12em;
+    padding: 2px;
+}
+
+.pics{
+    display: flex;
+    gap: 2.5em;
+    margin: 4em 3em;
+}
+
+.pics img{
+    width:240px;
+   height: 320px;   
+}
+
+.toso{
+    display: flex;
+    gap: 20em;
+    margin: 3em 3em;
+}
+
+.toso p{
+    margin-top: 0.7em;
+    line-height: 1.5em;
+}
+
+.toso button{
+    background-color: #1b1c1e;
+    color: #f5f5f5;
+    padding: 2px;
+    width: 11em;
+    height: 3em;
+}
+
+.main-textp{
+    display: flex;
+    gap: 3em;
+    margin: 2em 3em;
+   /* background: #f5f5f5;*/
+    width: 850px;
+    height: 360px;
+}
+
+.main-textp img{
+    background:#f5f5f5;
+    width: 250px;
+    height: 200px;
+}
+
+.main-textp h4{
+    margin: 0.7em;
+    font-weight: bold;
+    background:#f5f5f5;
+}
+
+.main-textp p{
+    line-height: 1.8em;
+    margin: 0.3em 0.5em 1.8em;
+    background:#f5f5f5;
+}
+.main-textp a{
+    margin: 3em 0.5em;
+    text-decoration: underline;
+}
+
+.foto{
+    display: flex;
+    flex-direction: column;
+    margin: 7em 3em 2em;
+    gap: 1em;
+}
+
+.main-footer{
+    display: flex;
+    gap: 2em;
+    width: 900px; 
+    height: 380px;
+    background-color: #f5f5f5;
+    margin: 3em 3em;
+    padding: 20px 20px;
+}
+span{
+    position: absolute;
+}
+
+.main-footer p{
+    line-height: 1.5em;
+    margin: 1em 0;
+    font-size: 12px;
+}
+
+.footer{
+    display: flex;
+    background: #000000;
+    color: #ffffff;
+    margin: 4em 4em;
+    gap: 5em;
+    width: 800px;
+    height: 80px;
+    border-radius: 5px;
+}
+.footer p{
+    margin: 3em 1.5em;
+    font-size: 12px;
+    width: 500px;
+}
+
+/*.footer button{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 1.5em 3em 4em;
+    padding: 5px 8px;
+    width: 350px;
+    height: 40px;
+    justify-items: flex-end;
+}
+
+.footer a{
+    background-color: #000000;
+    color: #ffffff;
+    gap: 3em;
+    position: relative;
+    justify-content: space-between;
+}*/
+
+.footer form{
+    display: flex;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    width: 303px;
+    height: 35px;
+    gap: 4em;
+    margin: 2em 1em;
+    color: #000000;
+}
+
+.footer button{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0.3em 0;
+    border-radius: 4px;
+}
+
+
+.primary-footer img{
+ display: flex;
+gap: 2em;
+width: 930px; 
+height: 380px;
+background-color: #f5f5f5;
+margin: 3em 3em;
+padding: 20px 20px;
+}
